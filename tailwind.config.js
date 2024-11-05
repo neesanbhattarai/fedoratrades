@@ -12,6 +12,13 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      translate: {
+        '10': '2.5rem',
+        '-10': '-2.5rem',
+      },
+      transitionProperty: {
+        'transform-opacity': 'transform, opacity',
+      },
     },
   },
   plugins: [],
